@@ -1,0 +1,8 @@
+# .github files linting
+services:
+  actionlint:
+    image: rhysd/actionlint:latest
+    working_dir: /repo
+    volumes:
+      - .:/repo/.github:ro
+    command: [ "--color"]

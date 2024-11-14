@@ -1,0 +1,8 @@
+coverage/
+node_modules/
+
+.env
+.env.*
+
+index.js
+cli.js
