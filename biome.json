@@ -6,6 +6,9 @@
 			"suspicious": {
 				"noConsole": "off",
 				"noConsoleLog": "off"
+			},
+			"style": {
+				"noDefaultExport": "off"
 			}
 		}
 	},

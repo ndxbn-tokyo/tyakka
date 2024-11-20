@@ -7,9 +7,10 @@
 ## Usage
 
 ```typescript
+import type {Hono} from "hono";
 import {Factory} from "tyakka";
 
-const app = new Factory().create();
+const app: Hono = await new Factory().create();
 
 export default app;
 ```
