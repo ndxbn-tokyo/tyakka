@@ -20,5 +20,5 @@ describe("filesystem routing", async () => {
 		const res = await app.request("/api/v1/not-found");
 		expect(res.status).toBe(404);
 		expect(await res.text()).toBe("Not Found in API");
-	})
+	});
 });
